@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 4em;
+}
+
+
+h2 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+label {
+    text-align: left !important;
+}
+
+body {
+    background: #343A40;
+    max-height: 100vh;
+}
+
+.main-content {
+    color: white;
+    padding-top: 3%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 8px 10px 15px 2px rgba(0, 0, 0, 0.8);
+    border: 1px solid  rgba(39,86,158,1);
+    background: RGBA(0,0,0, 0.3);
+}
+
+.navbar {
+    border-bottom: 2px solid rgba(39,86,158,1);
+    background: RGBA(0,0,0, 0.3) !important;
+}
+
+.footer {
+    background: RGBA(0,0,0, 0.3);
+    border-radius: 5px;
+    border: 2px solid rgba(39,86,158,1);
+    height: 7vh;
+    margin-top: 8vh;
+}
+
+.welcome {
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+
+.col-lg-8 {
+    padding-top: 0%;
+    padding-bottom: 7%;
+    height: 100% !important;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    font-weight: 100 !important;
+}
+
+.btn {
+    width: 100% !important;
+    padding: 4% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    letter-spacing: 6px !important;
+    font-size: 2em !important;
+    font-weight: 100 !important;
+    background: RGBA(0,0,0, 0.6) !important;
+}
+
+.btn:hover {
+    width: 80%;
+    background: RGBA(0,0,0, 1);
+    box-shadow: 4px 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    width: 80%;
+    padding: 2%;
+    margin: 5%;
+    background: RGBA(0,0,0, 1);
+    transform: scale(1.05);
+    box-shadow: 4px 10px 10px 2px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(22deg, rgba(39,86,158,0.3797093837535014) 65%, rgba(0,0,0,0.135171568627451) 95%)  !important;
+}
+
+.bottom-container {
+    height: 50%;
+    border-radius: 0;
+}
+
+.bottom-container .col-lg-4 {
+    border-radius: 10px;
+}

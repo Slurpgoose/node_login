@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <% include partials/imports.ejs %>
+        <script src="/js/main.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<% include partials/header.ejs %>
+<div class="container-fluid main-content">
+        <h1><%= content %></h1>
+        <div class="row welcome">
+                <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <button class='btn btn-primary login'>LOGIN</button>
+                <button class='btn btn-primary signup'>SIGN UP</button>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

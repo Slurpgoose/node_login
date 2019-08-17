@@ -1,0 +1,16 @@
+{
+    "development": {
+        "username": "antonytsygankov",
+        "password": null,
+        "database": "users",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    },
+  "production": {
+    "username": "antonytsygankov",
+    "password": null,
+    "database": "users",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
