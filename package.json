@@ -20,7 +20,7 @@
     "express-session": "^1.16.2",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.15.0",
+    "sequelize": "^5.15.1",
     "sequelize-session-store": "^0.1.0"
   }
 }
